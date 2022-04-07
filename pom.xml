@@ -38,6 +38,7 @@
 						<workerType>Micro</workerType>
 						<applicationName>jenkinscicd</applicationName>
 						<muleVersion>4.4.0</muleVersion>
+						 <objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				  </configuration>
 			</plugin>
