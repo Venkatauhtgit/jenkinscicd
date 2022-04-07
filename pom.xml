@@ -31,7 +31,13 @@
 				<extensions>true</extensions>
 				  <configuration>
 					<cloudHubDeployment>
-						
+						<username>Subbu1085134</username>
+						<password>Mtvenky1</password>
+						<environment>Sandbox</environment>	
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>jenkinscicd</applicationName>
+						<muleVersion>4.4.0</muleVersion>
 					</cloudHubDeployment>
 				  </configuration>
 			</plugin>
