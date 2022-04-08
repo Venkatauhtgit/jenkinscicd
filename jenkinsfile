@@ -9,9 +9,9 @@ pipeline {
         }
         
         stage ('Deploy Mule app to cloudhub') {
-        steps {
-        		bat mvn package deploy -dmuleDeploy
-        	}
-        	}
-        	}
-        	}
+            steps {
+                    bat mvn package deploy -dmuleDeploy
+                }
+            }
+    }
+ }
