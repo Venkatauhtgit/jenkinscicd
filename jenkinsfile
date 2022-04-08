@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build Mule Application' ) {
             steps {
-                bat mvn clean install
+                bat 'mvn clean install'
             }
         }
         
         stage ('Deploy Mule app to cloudhub') {
             steps {
-                    bat mvn package deploy -dmuleDeploy
+                    bat 'mvn package deploy -dmuleDeploy'
                 }
             }
     }
